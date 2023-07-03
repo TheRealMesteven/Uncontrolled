@@ -1,0 +1,16 @@
+﻿Energy
+--------------------
+Energy - Normal damage
+Beam - System damage is 110%, Shield damage is 85%, Armor is treated as 50% weaker along with an additional 12.5 armor (Interceptor hull only loses 20% with no additional reduction of armor)
+Lightning - 4x damage to shields, 2/200 chance to turn off main power
+Phase - 4x more system damage
+Infected - 6x more shield damage, Armor is treated as 70% weaker along with an additional 50 armor
+
+Physical
+--------------------
+Physical - Normal damage
+Shield piercing - 5x more shield damage
+Biohazard - Toxic gas is added the ship, amount is 2% of the unmodified hull damage (gas removes up to 80% of armor)
+Fire - adds 30% of unmodified hull damage to the reactor as heat
+Armor piercing - Armor is treated as 50% weaker along with an additional 12.5 armor (Interceptor hull only loses 20% with no additional reduction of armor)
+System damage - 4x more system damage, 2x more warp charge reduction
