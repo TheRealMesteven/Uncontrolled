@@ -52,6 +52,10 @@
       <HintPath>Libs\AstarPathfindingProject.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="CrewAILibraryBuild">
+      <HintPath>Libs\CrewAILibraryBuild.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Photon3Unity3D">
       <HintPath>Libs\Photon3Unity3D.dll</HintPath>
       <Private>False</Private>

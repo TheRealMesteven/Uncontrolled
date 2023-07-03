@@ -22,7 +22,7 @@ namespace Uncontrolled.Entities
 		{
 			base.Start();
 			this.hideFlags |= HideFlags.HideAndDontSave;
-			this.transform.localScale = new Vector3(2,2,2);
+			this.transform.localScale = new Vector3(5f,5f,5f);
 			this.Repairable = true;
 			this.Destroyable = false;
 			this.Damageable = false;
