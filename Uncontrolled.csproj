@@ -100,5 +100,8 @@
     <Compile Include="Systems\ScienceSystem.cs" />
     <Compile Include="UnSystem.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Damage Types.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -42,7 +42,7 @@ namespace Uncontrolled
 			MyShip = target;
 			SciSys = new ScienceSystem(this);
 			EngSys = new EngineeringSystem(this);
-			//AllSystems.Add(SciSys);
+			AllSystems.Add(SciSys);
 			AllSystems.Add(EngSys);
 		}
 

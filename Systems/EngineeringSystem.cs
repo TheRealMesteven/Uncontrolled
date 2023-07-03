@@ -25,10 +25,11 @@ namespace Uncontrolled.Systems
 
 		public override void Register(IEntity entity)
 		{
-			var id = UnityEngine.Random.Range(0, 1);
+			var id = UnityEngine.Random.Range(0, 2);
 			GetState(id)++;
 			entity.Data = id;
-		}
+            PulsarModLoader.Utilities.Messaging.Echo(PhotonTargets.All, "Engineering Damage : " + (int)id);
+        }
 
 		public override void Unregister(IEntity entity)
 		{
